@@ -114,7 +114,6 @@ gulp.task('images_comp', function () {
 // Set browser sync for this direction
 gulp.task('browser-sync', function() {
     browserSync.init(["dist/*.css", "dist/css/*.css", "dist/*.js", "*.html"], {
-        /*proxy: "yourlocal.dev"*/
         server: {
             baseDir: "./"
         }
